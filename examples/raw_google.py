@@ -1,7 +1,7 @@
 from seleniumbase import SB
 
 with SB(uc=True, test=True) as sb:
-    url = "https://google.com/ncr"
+    url = "https://www.anawenti.com/message/view/222625751/"
     sb.activate_cdp_mode(url)
     sb.type('[name="q"]', "SeleniumBase GitHub page")
     sb.click('[value="Google Search"]')
